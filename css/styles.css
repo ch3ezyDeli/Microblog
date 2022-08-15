@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  background: radial-gradient(55.32% 55.32% at 50% 100%, #05111c 0%, #05111C 100%);
+  background-repeat: cover;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  padding: 2%;
+  color: #ffffff;
+
+}
+
+body {}
+
+div.background__img {
+  background-image: url("../img/computer-bkg.svg");
+  background-repeat: no-repeat;
+  background-size: 98%;
+  overflow: hidden;
+  z-index: -1;
+  width: 600px;
+  height: 68%;
+  position: fixed;
+  left: 50%;
+  top: 15%;
+}
+
+.text-light-blue-400 {
+  --tw-bg-opacity: 1;
+  color: #38BDF8;
+}
+
+.bg-light-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: #38BDF8;
+}
+
+.bg-black-pearl-400 {
+  --tw-bg-opacity: 1;
+  background-color: #05111C;
+}
+
+.bg-blue-accent {
+  --tw-bg-opacity: 1;
+  background-color: #132E46;
+}
+
+.h-120 {
+  height: 34rem;
+}
+
+.h-150 {
+  height: 54rem;
+}

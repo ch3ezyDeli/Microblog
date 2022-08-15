@@ -1,0 +1,12 @@
+### Local Environment Setup
+ - 1. Download and install XAMPP
+ - 2. Navigate to {XAMPP Install Location}\apache\conf\extra
+ - 3. Modify the `httpd-vhosts.conf` file add the following:
+   - Use the contents of the `vhost.txt` file located in the project files
+   - Modify the contents of the vhost file as instructed
+ - 5. Navigate to C:\Windows\System32\drivers\etc and edit your "hosts" file
+   - Note: Remember to use an editor that is running as administrator
+   - Add the following line:
+     - `{Your computer's IP Address} {Your GW ID}.microblog.com`
+ - 4. Launch XAMPP and start Apache
+ - 5. You should now be able to visit {Your GW ID}.microblog.com/login.html

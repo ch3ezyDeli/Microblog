@@ -1,0 +1,65 @@
+.form--animate--fade {
+  display: hidden;
+}
+
+div.body__wrapper {
+  margin: 5% 15%;
+
+}
+
+form i {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+div.banner__img {}
+
+div.banner__img>img {
+  width: 95px;
+  float: left;
+  margin: 0 10px;
+}
+
+@media screen and (max-width:665px) {
+
+  div.banner__header {
+    width: 50%;
+  }
+
+  div.banner__img>img {
+    margin-left: -28px;
+  }
+
+}
+
+div.banner__header {}
+
+div.banner__header>h1 {
+  font-weight: bolder;
+  margin: 0;
+  letter-spacing: 0.05ch;
+}
+
+div.banner__header>h4 {
+  font-weight: 300;
+  color: #8C8C8C;
+  line-height: 1.8rem;
+  white-space: nowrap;
+  margin: -8px 0px;
+  padding-left: 2px;
+  letter-spacing: 0.05ch;
+}
+
+button.form__button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  background: #00CDE6;
+  box-shadow: 1.47003px 10.8025px 20.7333px rgba(186, 186, 186, 0.082), inset -0.401807px -4.59268px 4.61022px #00C1D8, inset 0.401807px 4.59268px 4.61022px #00D7F1;
+
+}
+
+button.form__button:hover {
+  background: #00CDE6;
+  box-shadow: inset -0.401807px -4.59268px 4.61022px #00C1D8, inset 0.401807px 4.59268px 4.61022px #00D7F1;
+
+}
