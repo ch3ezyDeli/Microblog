@@ -1,0 +1,76 @@
+@media only screen and (min-width: 600px) {
+    div.body__wrapper {
+        margin: 0.002% 15%;
+
+    }
+}
+
+.img__container {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+div.container__div {
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 71%);
+}
+
+div#profile__img__container {
+
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+.content__div__center {
+    text-align: center;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    border: none;
+    color: #05111C;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.71);
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 3px rgba(167, 167, 167, 0.71);
+}
+
+button.cancel__button {
+    background: #787878;
+    box-shadow: 6.20488e-16px 10.1333px 20.2667px rgba(24, 24, 24, 0.24), inset -1.93041e-16px -3.15259px 3.15259px #6F6F6F, inset 1.93041e-16px 3.15259px 3.15259px #7F7F7F;
+}
+
+button.cancel__button:hover {
+    background: linear-gradient(180deg, #656464 0%, #868686 100%);
+    box-shadow: 6.20488e-16px 10.1333px 20.2667px rgba(24, 24, 24, 0.24), inset -1.93041e-16px -3.15259px 3.15259px #606060, inset 1.93041e-16px 3.15259px 3.15259px #8B8B8B;
+}
+
+button.save__button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background: #00CDE6;
+    box-shadow: 1.47003px 10.8025px 20.7333px rgba(186, 186, 186, 0.082), inset -0.401807px -4.59268px 4.61022px #00C1D8, inset 0.401807px 4.59268px 4.61022px #00D7F1;
+
+}
+
+button.save__button:hover {
+    background: linear-gradient(180deg, #00ACC1 0%, #00E6FF 100%);
+    box-shadow: 1.03279e-15px 16.8667px 33.7333px rgba(0, 41, 46, 0.24), inset -3.21311e-16px -5.24741px 5.24741px #00A4B8, inset 3.21311e-16px 5.24741px 5.24741px #00EEFF;
+}

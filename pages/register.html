@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"></script>
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../img/icons/logo.ico"/>
+  <link rel="stylesheet" href="../css/tailstyles.css">
+  <link href="../css/auth.css" rel="stylesheet">
+  <title>Sign Up - Chitter</title>
+</head>
+<body>
+    
+<div class="background__img"></div>
+<div class="body__wrapper">
+  <div class="flex banner__img w-full min-w-xs">
+    <img src="../img/logo.png" alt="chitter logo">
+    <div class="banner__header mt-5">
+      <h1 class="text-5xl">CHITTER</h1>
+    <h4>Chitter Chat on your own time</h4>
+    </div>
+  </div>
+  <div class="w-full my-9 form--animate--fade hidden max-w-sm">
+    <form class=" pt-6 pb-8 mb-4">
+      <div class="mb-10">
+        
+        <input class="shadow appearance-none border-2 rounded w-full py-3 mb-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="reg-name" type="text" autocomplete="name" maxlength="50" placeholder="Full name">
+        <p class="text-red-500 text-xs italic" id="input-one"></p>
+      </div>
+      <div class="mb-10">
+        
+        <input class="shadow appearance-none border-2 rounded w-full py-3 mb-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  id="reg-username" type="text" maxlength="20" placeholder="Username">
+        <p class="text-red-500 text-xs italic" id="input-two"></p>
+      </div>
+      <div class="mb-10">
+        
+        <input class="shadow appearance-none border-2 rounded w-full py-3 mb-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  id="reg-password" maxlength="10" type="password" placeholder="Password">
+        <p class=" text-xs italic" id="input-three"></p>
+      </div>
+      <div class="mb-8">
+        <input class="shadow appearance-none border-2  rounded w-full py-3 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="password" maxlength="10" placeholder="Confirm Password" id="confirm-password">
+        <i class="fa fa-eye" aria-hidden="true"></i>
+        <button type="button" class="text-xs text-light-blue-400 float-right" id="show-btn" >Show Password</button>
+        <p class=" text-xs italic" id="input-four"></p>
+      </div>
+      
+      <div class="flex content-center">
+        <div class="grid justify-items-center w-full">
+        <button class="form__button text-white  py-3 text-xl px-7 rounded focus:outline-none focus:shadow-outline" type="button" id="reg-btn">
+          SIGN UP
+        </button>
+      </div> 
+        
+      </div>
+    </form>
+    <div class="flex content-center">
+    <div class="grid justify-items-center w-full">
+      <p>Already a member? <a class="text-light-blue-400 underline" href="login.html">Click Here</a></p>
+    </div>
+  </div>
+    <p class="text-center text-gray-500 text-xs">
+      &copy;2021 J Corp. All rights reserved.
+    </p>
+  </div>
+</div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js" integrity="sha512-8pbzenDolL1l5OPSsoURCx9TEdMFTaeFipASVrMYKhuYtly+k3tcsQYliOEKTmuB1t7yuzAiVo+yd7SJz+ijFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="../js/tooltip.js"></script>
+    <script src="../js/animate.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>
