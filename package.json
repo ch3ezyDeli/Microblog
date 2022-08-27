@@ -1,0 +1,19 @@
+{
+  "name": "microblog",
+  "version": "1.0.0",
+  "description": "- 1. Download and install XAMPP\r  - 2. Navigate to {XAMPP Install Location}\\apache\\conf\\extra\r  - 3. Modify the `httpd-vhosts.conf` file add the following:\r    - Use the contents of the `vhost.txt` file located in the project files\r    - Modify the contents of the vhost file as instructed\r  - 5. Navigate to C:\\Windows\\System32\\drivers\\etc and edit your \"hosts\" file\r    - Note: Remember to use an editor that is running as administrator\r    - Add the following line:\r      - `{Your computer's IP Address} {Your GW ID}.microblog.com`\r  - 4. Launch XAMPP and start Apache\r  - 5. You should now be able to visit {Your GW ID}.microblog.com/login.html",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch3ezyDeli/Microblog.git"
+  },
+  "author": "Jeremy La Vina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ch3ezyDeli/Microblog/issues"
+  },
+  "homepage": "https://github.com/ch3ezyDeli/Microblog#readme"
+}
